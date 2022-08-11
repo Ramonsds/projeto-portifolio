@@ -1,0 +1,89 @@
+.formacao {
+  background-color: #141414;
+  color: #fff;
+}
+
+.formacao-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 20px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 100px;
+}
+
+.formacao .subtitulo {
+  max-width: 5ch;
+  font-size: 6rem;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.formacao-texto {
+  font-size: 1.3rem;
+  line-height: 1.2;
+  margin-bottom: 40px;
+  color: #a3a3a3;
+}
+
+.formacao-texto strong {
+  color: #fff;
+}
+
+.formacao-items {
+  display: flex;
+  gap: 20px;
+}
+
+.formacao-lista {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: #000;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.formacao-lista  li{
+  padding-bottom: 10px;
+}
+
+.formacao-curso {
+  padding-bottom: 60px;
+}
+
+.cursos {
+  color: #a3a3a3;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.cursos-tipo{
+  font-size: 1.2rem;
+  line-height: 2;
+}
+
+.cursos-tipo li {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cursos-tipo span {
+  color: #a3a3a3;
+}
+
+.idiomas {
+  color: #a3a3a3;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.idiomas-tipo {
+  font-size: 1.2rem;
+  line-height: 2;
+}
+
+.idiomas-tipo span {
+  color: #a3a3a3;
+}

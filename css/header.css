@@ -1,0 +1,21 @@
+.header{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-menu{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  font-size: 1.1rem;
+  justify-content: center;
+}
+
+.nav-menu a{
+  display: block;
+  padding: 10px 20px;
+  color: #141414;
+}
